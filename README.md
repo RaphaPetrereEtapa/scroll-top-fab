@@ -22,16 +22,16 @@ jsDelivr serves files straight from a GitHub tag:
 ```html
 <scroll-top-fab></scroll-top-fab>
 
-<script src="https://cdn.jsdelivr.net/gh/your-github-user/scroll-top-fab@1.0.0/scroll-top-fab.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/RaphaPetrereEtapa/scroll-top-fab@1.0.0/scroll-top-fab.js"></script>
 ```
 
 ### From npm/GitHub
 
 ```sh
-npm install github:your-github-user/scroll-top-fab#v1.0.0
+npm install github:RaphaPetrereEtapa/scroll-top-fab#v1.0.0
 ```
 
-Then serve `node_modules/@your-github-user/scroll-top-fab/scroll-top-fab.js`
+Then serve `node_modules/@raphapetrereetapa/scroll-top-fab/scroll-top-fab.js`
 like any other asset, e.g. in a Laravel view that has a `module()` helper for
 `node_modules`:
 
@@ -39,7 +39,7 @@ like any other asset, e.g. in a Laravel view that has a `module()` helper for
 <scroll-top-fab></scroll-top-fab>
 
 @push('scripts')
-  <script src="{{ module('@your-github-user/scroll-top-fab/scroll-top-fab.js') }}"></script>
+  <script src="{{ module('@raphapetrereetapa/scroll-top-fab/scroll-top-fab.js') }}"></script>
 @endpush
 ```
 
@@ -105,7 +105,7 @@ Replacing `resources/views/components/fab.blade.php` and
 ></scroll-top-fab>
 
 @push('scripts')
-  <script src="{{ module('@your-github-user/scroll-top-fab/scroll-top-fab.js') }}"></script>
+  <script src="{{ module('@raphapetrereetapa/scroll-top-fab/scroll-top-fab.js') }}"></script>
 @endpush
 ```
 

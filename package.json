@@ -1,5 +1,5 @@
 {
-  "name": "@your-github-user/scroll-top-fab",
+  "name": "@raphapetrereetapa/scroll-top-fab",
   "version": "1.0.0",
   "description": "Framework-free <scroll-top-fab> web component: a floating button that appears after scrolling down and scrolls back to the top",
   "main": "scroll-top-fab.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-github-user/scroll-top-fab.git"
+    "url": "git+https://github.com/RaphaPetrereEtapa/scroll-top-fab.git"
   },
   "keywords": [
     "web-component",
